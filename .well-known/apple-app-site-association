@@ -1,0 +1,15 @@
+{
+  "applinks": {
+      "apps": [],
+      "details": [
+      {
+        "appID": "L54C52L6Z6.info.seeroo.modnfit.dev",
+        "paths": ["*"]
+      },
+      {
+        "appID": "L54C52L6Z6.info.seeroo.modnfit",
+        "paths": ["*"]
+      }
+    ]
+  }
+}
