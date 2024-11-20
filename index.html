@@ -1,8 +1,20 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript">
+            window.onload = function() {
+                var visitTime = (new Date()).getTime();
+
+                var isAndroid = /android/i.test(navigator.userAgent);
+                var isiOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+                if (isAndroid) {
+                    location.href = "https://play.google.com/store/apps/details?id=info.seeroo.modnfit";
+                } else if (isiOS) {
+                    location.href = "https://apps.apple.com/app/id1179617615"
+                }
+            }
+    </head>
 <body>
 
 <h1 style="font-size:10vw;">Responsive Text</h1>
